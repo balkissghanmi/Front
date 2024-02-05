@@ -10,12 +10,7 @@ stages {
       }
      
     }
-    stage('NPM Clean'){
-        steps{
-            sh 'npm clean'
-            
-        }
-    }
+ 
     stage('NPM INSTALL'){
         steps{
             sh 'npm install '
