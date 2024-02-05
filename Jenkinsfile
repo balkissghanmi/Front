@@ -16,5 +16,11 @@ stages {
             sh 'npm install '
         }
     }
+    stage('Build Angular App') {
+            steps {
+                sh 'npm run build'
+            }
+        }
+    }
+
 }
-} 
