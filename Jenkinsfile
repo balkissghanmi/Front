@@ -11,7 +11,7 @@ stages {
      
     }
  
-    stage('NPM INSTALL'){
+    stage('Install Dep'){
         steps{
             sh 'npm install '
         }
